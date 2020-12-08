@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Catch The Politician</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Catch The Politician</h1>
+      <button class="btn" id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen">
+      <h1>Who would you like to catch?</h1>
+      <ul class="politicians-list">
+        <li>
+          <button class="choose-politician-btn">
+            <p>Donald Trump</p>
+            <img src="donald_trump_PNG20.png" alt="Trump">
+          </button>
+        </li>
+        <li>
+          <button class="choose-politician-btn">
+            <p>Joe Biden</p>
+            <img
+               src="biden.png"
+               alt="Joe Biden"
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-politician-btn">
+            <p>Kim Jong Un</p>
+            <img
+               src="kimjonghead.png"
+               alt="Kim Jong Un"
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-politician-btn">
+            <p>Vladimir Putin</p>
+            <img
+               src="putin.png"
+               alt="Vladimir Putin"
+               />
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+      <h3 id="time" class="time">Time: 00:00</h3>
+      <h3 id="score" class="score">Score: 0</h3>
+      <h5 id="message" class="message">
+        Can you do it? <br>
+      </h5>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
